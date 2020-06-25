@@ -1,0 +1,66 @@
+/* Application-wide Styles */
+h1 {
+  color: #f5981d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #f5981d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+}
+p.about {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+p.sec {
+  text-align: left;
+  font-size: 16px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.jext {
+  height: 100%;
+}
+.navbar {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+}
+a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.jumbotron-asphalt {
+  background: #34495e;
+  color: #ecf0f1;
+}
+
+.text-centered { text-align: center; }
+.no-margin { margin: 0; }
+
+@media(max-width: 767px) {
+  .jumbotron h1 {
+    color: #f5981d;
+    font-size: 31px;
+  }
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#spacer{
+  padding: 0.6%;
+}
